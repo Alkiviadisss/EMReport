@@ -2,6 +2,8 @@
 
 A lightweight Python utility for generating clean, readable evaluation reports for **Regression**, **Classification**, and **Clustering** machine learning models. All in one place.
 
+![EMReport_demo.gif](https://github.com/user-attachments/assets/dbba2ab5-7346-4055-9571-d8cb14c0b75d)
+
 ---
 
 ## Features
