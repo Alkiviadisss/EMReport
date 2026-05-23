@@ -17,6 +17,7 @@ def EMReport_Regression(y_true, y_pred):
     print(f"Root Mean Squared Error (RMSE):  {rmse:.4f}")
     print(f"R-squared (R2):                  {r2:.4f}")
     print("-" * 50)
+    return {"MAE": mae, "MSE": mse, "RMSE": rmse, "R2": r2}
 
 def EMReport_Classification(y_true, y_pred):
     acc = accuracy_score(y_true, y_pred)
@@ -35,6 +36,7 @@ def EMReport_Classification(y_true, y_pred):
     print("-" * 50)
     print("Confusion Matrix:\n", cm)
     print("-" * 50)
+    return {"Accuracy": acc, "Precision": prec, "Recall": rec, "F1_Score": f1, "Confusion_Matrix": cm}
 
 def EMReport_Clustering(X, labels):
     unique_labels = np.unique(labels)
@@ -58,3 +60,4 @@ def EMReport_Clustering(X, labels):
     print(f"Davies-Bouldin Index:      {db_score:.4f} (Lower is better)")
     print(f"Calinski-Harabasz Index:   {ch_score:.4f} (Higher is better)")
     print("-" * 50)
+    return {"Silhouette_Score": sil_score, "Davies_Bouldin_Index": db_score, "Calinski_Harabasz_Index": ch_score}
