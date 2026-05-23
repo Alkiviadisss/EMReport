@@ -36,7 +36,7 @@ from EMReport import EMReport_Regression, EMReport_Classification, EMReport_Clus
 
 ---
 
-### 🔹 Regression
+###  Regression
 
 ```python
 from EMReport import EMReport_Regression
@@ -61,7 +61,7 @@ R-squared (R2):                  0.9921
 
 ---
 
-### 🔹 Classification
+###  Classification
 
 ```python
 from EMReport import EMReport_Classification
@@ -91,7 +91,7 @@ Confusion Matrix:
 
 ---
 
-### 🔹 Clustering
+###  Clustering
 
 ```python
 from EMReport import EMReport_Clustering
