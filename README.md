@@ -21,7 +21,7 @@ A lightweight Python utility for generating clean, readable evaluation reports f
 Install dependencies with:
 
 ```bash
-pip install numpy scikit-learn
+pip install EMReport
 ```
 
 ---
