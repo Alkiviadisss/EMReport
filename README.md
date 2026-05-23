@@ -156,16 +156,16 @@ Calinski-Harabasz Index:   90.0000 (Higher is better)
 | Metric | Task | Interpretation |
 |--------|------|----------------|
 | MAE | Regression | Average absolute difference between predictions and actuals |
-| MSE | Regression | Average squared difference; penalises large errors more |
-| RMSE | Regression | Square root of MSE; same unit as target variable |
+| MSE | Regression | Average squared difference, penalises large errors more |
+| RMSE | Regression | Square root of MSE, same unit as target variable |
 | R² | Regression | Proportion of variance explained (1.0 = perfect fit) |
 | Accuracy | Classification | Fraction of correctly classified samples |
 | Precision | Classification | Of all positive predictions, how many were correct |
 | Recall | Classification | Of all actual positives, how many were found |
 | F1 Score | Classification | Harmonic mean of Precision and Recall |
 | Silhouette Score | Clustering | Measures how similar a point is to its own cluster vs. others (-1 to 1) |
-| Davies-Bouldin Index | Clustering | Average similarity between clusters; lower = better separation |
-| Calinski-Harabasz Index | Clustering | Ratio of between-cluster to within-cluster dispersion; higher = better |
+| Davies-Bouldin Index | Clustering | Average similarity between clusters, lower = better separation |
+| Calinski-Harabasz Index | Clustering | Ratio of between-cluster to within-cluster dispersion, higher = better |
 
 ---
 
