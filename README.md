@@ -1,14 +1,14 @@
 # EMReport
 
-A lightweight Python utility for generating clean, readable evaluation reports for **Regression**, **Classification**, and **Clustering** machine learning models — all in one place.
+A lightweight Python utility for generating clean, readable evaluation reports for **Regression**, **Classification**, and **Clustering** machine learning models. All in one place.
 
 ---
 
 ## Features
 
-- **Regression Report** — MAE, MSE, RMSE, and R²
-- **Classification Report** — Accuracy, Precision, Recall, F1 Score, and Confusion Matrix
-- **Clustering Report** — Silhouette Score, Davies-Bouldin Index, and Calinski-Harabasz Index
+- **Regression Report:** MAE, MSE, RMSE, and R²
+- **Classification Report:**  Accuracy, Precision, Recall, F1 Score, and Confusion Matrix
+- **Clustering Report:** Silhouette Score, Davies-Bouldin Index, and Calinski-Harabasz Index
 
 ---
 
