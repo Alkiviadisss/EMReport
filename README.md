@@ -14,7 +14,7 @@ A lightweight Python utility for generating clean, readable evaluation reports f
 
 ---
 
-## Requirements
+## Install & Requirements
 
 - Python 3.7+
 - `numpy`
