@@ -20,10 +20,16 @@ A lightweight Python utility for generating clean, readable evaluation reports f
 - `numpy`
 - `scikit-learn`
 
+Install repository:
+
+```bash
+git clone https://github.com/Alkiviadisss/EMReport
+```
+
 Install dependencies with:
 
 ```bash
-pip install EMReport
+pip install requirements.txt
 ```
 
 ---
