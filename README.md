@@ -179,4 +179,4 @@ Calinski-Harabasz Index:   90.0000 (Higher is better)
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+Copyright (c) 2026 Alkiviadis Agrogiannhs. All rights reserved.
